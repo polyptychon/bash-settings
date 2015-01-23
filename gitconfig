@@ -1,0 +1,32 @@
+[user]
+	name = harris sidiropoulos
+	email = harris.sidiropoulos@gmail.com
+[core]
+	editor = subl -w
+	excludesfile = /Users/harrissidiropoulos/.gitignore_global
+[color]
+	ui = true
+[alias]
+	lol = log --oneline --graph --decorate
+[push]
+	default = simple
+[alias]
+	co = checkout
+	ci = commit
+	rb = rebase
+	st = status
+	s = status -s
+	lg = log --oneline --decorate --all --graph
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
