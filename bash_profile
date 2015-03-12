@@ -5,6 +5,19 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH="$PATH:/Users/harrissidiropoulos/adt-bundle-mac-x86_64-20140321/sdk/platform-tools"
 export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:$PATH"
 
+#my scripts
+export MY_SCRIPTS=~/wp_scripts
+export PATH="$MY_SCRIPTS:$PATH"
+
+#wp-cli
+export MAMP_PHP=/Applications/MAMP/bin/php/php5.6.2/bin
+export PATH="$MAMP_PHP:$PATH"
+
+export MAMP_APACHE=/Applications/MAMP/bin/apache2/bin
+export PATH="$MAMP_APACHE:$PATH"
+
+source ~/.wp-completion.bash
+
 alias ll="ls -lahG"
 alias a="ls -lahG"
 alias cc="clear"
