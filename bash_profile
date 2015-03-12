@@ -6,8 +6,8 @@ export PATH="$PATH:/Users/harrissidiropoulos/adt-bundle-mac-x86_64-20140321/sdk/
 export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:$PATH"
 
 #my scripts
-export MY_SCRIPTS=~/wp_scripts
-export PATH="$MY_SCRIPTS:$PATH"
+export WP_SCRIPTS=~/wp_scripts
+export PATH="$WP_SCRIPTS:$PATH"
 
 #wp-cli
 export MAMP_PHP=/Applications/MAMP/bin/php/php5.6.2/bin
